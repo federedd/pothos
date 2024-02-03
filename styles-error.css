@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a3d24;
+}
+
+.page-not-found {
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Archivo;
+  font-size: 50px;
+  background-color: #1a3d24;
+}
+
+h2 {
+  font-family: Lato;
+}
+
+img {
+  width: 300px;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  50% {
+    transform: translateY(30px);
+  }
+}
