@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 40px;
+  font-family: Archivo;
+}
+
+.photo {
+  object-fit: cover;
+  height: 200px;
+  border: 4px solid olive;
+  border-radius: 20px;
+}
+
+.plant-item {
+  display: grid;
+  gap: 1rem 2rem;
+  max-width: 25rem;
+  margin-bottom: 2rem;
+}
+
+.section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+header {
+  border-bottom: 0.5px dotted olive;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  font-family: Lato;
+}
+
+.plant-text {
+  font-family: Lato;
+  padding-top: 1rem;
+}
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  background: olive;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button-container {
+  text-align: center;
+  margin: 20px;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 20px;
+  font-family: Lato;
+  margin: 5px;
+  border: 2px solid olive;
+  background-color: white;
+  color: olive;
+  border-radius: 10px;
+}

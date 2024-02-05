@@ -7,6 +7,11 @@ const heroSection = document.querySelector(".hero");
 const loginPage = document.querySelector(".login-page");
 const landingPage = document.querySelector(".background");
 const loginError = document.querySelector(".login-error");
+const blogButton = document.querySelector(".blog-button");
+const blogPost = document.querySelector(".blog-post-wrapper");
+const arrowButton = document.querySelector(".arrow-button");
+const blogPostText = document.querySelector(".blog-post-text");
+const shopBtn = document.querySelector(".shop");
 
 searchButton.addEventListener("mouseover", function () {
   searchBar.classList.add("visible");
@@ -21,7 +26,7 @@ searchBarWrapper.addEventListener("mouseleave", function () {
 document.onkeydown = function (event) {
   console.log(searchBarInput.value.length);
   if (event.key === "Enter" && searchBarInput.value.length >= 0) {
-    window.open("http://127.0.0.1:5500/error.html", "_blank");
+    window.open("http://127.0.0.1:5501/error.html", "_blank");
     searchBarInput.value = "";
   }
 };
@@ -39,5 +44,19 @@ function showLogin() {
 }
 
 loginError.addEventListener("click", () => {
-  window.open("http://127.0.0.1:5500/error.html", "_blank");
+  window.open("http://127.0.0.1:5501/error.html", "_blank");
+});
+
+blogButton.addEventListener("click", () => {
+  blogButton.classList.toggle("active");
+  heroSection.classList.toggle("invisible");
+  blogPost.classList.toggle("show-post");
+});
+
+arrowButton.addEventListener("click", function () {
+  blogPostText.classList.toggle("show-post");
+});
+
+shopBtn.addEventListener("click", () => {
+  window.open("http://127.0.0.1:5501/shop.html", "_blank");
 });
