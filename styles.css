@@ -253,3 +253,10 @@ label {
 .shop {
   cursor: pointer;
 }
+
+.copyright {
+  display: block;
+  position: absolute;
+  top: 700px;
+  font-family: Lato;
+}

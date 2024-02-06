@@ -62,7 +62,7 @@ function displayPlantsItems(plantItems) {
 filterBtns.forEach(function (btn) {
   btn.addEventListener("click", function (e) {
     const category = e.currentTarget.dataset.id;
-    const menuCategory = plants.filter(function (plantItems) {
+    const plantCategory = plants.filter(function (plantItems) {
       if (plantItems.category === category) {
         return plantItems;
       }
@@ -70,7 +70,7 @@ filterBtns.forEach(function (btn) {
     if (category === "all") {
       displayPlantsItems(plants);
     } else {
-      displayPlantsItems(menuCategory);
+      displayPlantsItems(plantCategory);
     }
   });
 });

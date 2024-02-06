@@ -12,6 +12,7 @@ const blogPost = document.querySelector(".blog-post-wrapper");
 const arrowButton = document.querySelector(".arrow-button");
 const blogPostText = document.querySelector(".blog-post-text");
 const shopBtn = document.querySelector(".shop");
+const date = document.getElementById("date");
 
 searchButton.addEventListener("mouseover", function () {
   searchBar.classList.add("visible");
@@ -44,7 +45,7 @@ function showLogin() {
 }
 
 loginError.addEventListener("click", () => {
-  window.open("http://127.0.0.1:5501/error.html", "_blank");
+  window.open("http://127.0.0.1:5502/error.html", "_blank");
 });
 
 blogButton.addEventListener("click", () => {
@@ -58,5 +59,7 @@ arrowButton.addEventListener("click", function () {
 });
 
 shopBtn.addEventListener("click", () => {
-  window.open("http://127.0.0.1:5501/shop.html", "_blank");
+  window.open("http://127.0.0.1:5502/shop.html", "_blank");
 });
+
+date.innerHTML = new Date().getFullYear();
