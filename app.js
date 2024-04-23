@@ -27,7 +27,7 @@ searchBarWrapper.addEventListener("mouseleave", function () {
 document.onkeydown = function (event) {
   console.log(searchBarInput.value.length);
   if (event.key === "Enter" && searchBarInput.value.length >= 0) {
-    window.open("http://127.0.0.1:5501/error.html", "_blank");
+    window.open("http://127.0.0.1:5502/error.html", "_blank");
     searchBarInput.value = "";
   }
 };

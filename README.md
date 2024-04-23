@@ -15,7 +15,6 @@ This project is a simple landing page for an online houseplant destination calle
     - [Installation](#installation)
   - [How to Use](#how-to-use)
   - [Contributing](#contributing)
-  - [License](#license)
 
 ![Pothos landing page](./assets/landing.png)
 
@@ -61,7 +60,3 @@ The purpose of this project is to create an engaging and user-friendly landing p
 ## Contributing
 
 Contributions are welcome! If you have improvements or feature suggestions, please open an issue or create a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
