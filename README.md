@@ -16,9 +16,7 @@ This project is a simple landing page for an online houseplant destination calle
   - [How to Use](#how-to-use)
   - [Contributing](#contributing)
 
-![Pothos landing page](./assets/landing.png)
-
-![Mr G](./assets/mr-g.png)
+![Pothos landing page](./assets/pothos-demo.png)
 
 ## HTML Structure
 

@@ -48,7 +48,6 @@ ul {
   margin: 0;
 }
 li {
-  font-size: 1.2vw;
   padding: 1.4vw 3vw;
   text-align: center;
   cursor: pointer;
@@ -56,6 +55,7 @@ li {
 .home-ul {
   display: flex;
   align-items: center;
+  gap: 20px;
 }
 
 .login-ul {
@@ -99,6 +99,7 @@ body {
 }
 
 .shop {
+  transition: 0.5s ease;
   border: 1.5px solid black;
   font-family: Lato;
   font-weight: 700;
@@ -110,6 +111,14 @@ body {
   right: 0px;
   margin: 18px;
   background-color: white;
+}
+
+.shop:hover {
+  transition: 0.5s ease;
+  background-color: #1a3d2400;
+  color: white;
+  border: 1px solid white;
+  font-size: 1.5vw;
 }
 
 footer {
@@ -200,6 +209,7 @@ label {
 }
 
 .blog-post-wrapper {
+  margin: 50px;
   display: none;
   width: 40%;
   font-family: Lato;
@@ -266,20 +276,30 @@ label {
   margin: 20px;
 }
 
-/* @media only screen and (max-width: 1000px) {
-  h1 {
-    font-size: 10rem;
-  }
-  h2 {
-    display: none;
-  }
-} */
-
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 430px) {
   li {
+    font-size: 16px;
+  }
+
+  .search {
+    width: 25px;
+  }
+  .logo {
+    width: 40px;
+  }
+  .pothos {
+    font-size: 10px;
+  }
+  h1 {
+    font-size: 90px;
+  }
+  .first-p {
     display: none;
   }
-  .nav-container {
-    background-color: white;
+  .shop {
+    font-size: 13px;
+  }
+  .copyright {
+    display: none;
   }
 }

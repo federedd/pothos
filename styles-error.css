@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #1a3d24;
+  background-color: #3f5c47;
 }
 
 .page-not-found {
@@ -17,7 +17,7 @@ body {
   transform: translate(-50%, -50%);
   font-family: Archivo;
   font-size: 50px;
-  background-color: #1a3d24;
+  background-color: #3f5c47;
 }
 
 h2 {
